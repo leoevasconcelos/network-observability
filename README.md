@@ -54,4 +54,4 @@ oc get flowcollector
 
 [Link para documentação oficial Red Hat Network Observability](https://docs.openshift.com/container-platform/4.10/networking/network_observability/network-observability-overview.html) 
 
-[Link para documentação oficial Red Hat eBPF](https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/assembly_understanding-the-ebpf-features-in-rhel_configuring-and-managing-networking) 
+[Link para documentação oficial Red Hat - Entendendo as características da rede eBPF na RHEL](https://access.redhat.com/documentation/pt-br/red_hat_enterprise_linux/8/html/configuring_and_managing_networking/assembly_understanding-the-ebpf-features-in-rhel_configuring-and-managing-networking) 
