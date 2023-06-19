@@ -8,6 +8,6 @@ commonAnnotations:
 
 resources:
   - cm.yaml
-  - deployment.yaml
+  - pod.yaml
   - pvc.yaml
   - service.yaml
