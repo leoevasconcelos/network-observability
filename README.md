@@ -17,13 +17,13 @@ oc new-project netobserv
 
 ```bash
 cd custom-resources/kafka
-oc apply -k manifests/loki/base
+oc apply -k loki/base
 ```
 # 4 - Deploy Network Observability Flow Collector
 
 ```bash
 cd custom-resources/kafka
-oc apply -k manifests/netobserv/instance/overlays/default/
+oc apply -k netobserv/instance/overlays/default/
 ```
 
 * Agent: can be EBPF (this case and the default one) or IPFIX (OVN-Kubernetes for example). EBPF is recommended and offers more performance.
