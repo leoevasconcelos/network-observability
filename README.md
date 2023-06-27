@@ -5,7 +5,7 @@
 ```bash
 oc new-project netobserv
 ```
-# 1 - Installing NetObserv Operator Prerequisites
+# 1 - Installing Network Observability Operator Prerequisites
 
 ![OpenShift NetObservability Operator](img/Observability.png)
 
