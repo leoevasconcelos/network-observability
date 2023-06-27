@@ -13,6 +13,11 @@ oc new-project netobserv
 
 ![OpenShift Grafana Operator](images/gitops-01.png)
 
+## Deploy Grafana Dashboards
+```bash
+oc apply -k grafana-operator/overlays/instance/overlay
+```
+
 # 3 - Deploy Grafana Loki
 
 ```bash
