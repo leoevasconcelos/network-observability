@@ -8,29 +8,29 @@ git clone https://github.com/leoevasconcelos/network-observability.git
 ```bash
 oc new-project netobserv
 ```
-# 1 - Installing Network Observability Operator Prerequisites
+## 1 - Installing Network Observability Operator Prerequisites
 
 ![OpenShift NetObservability Operator](img/Observability.png)
 
-# 2 - Installing Grafana Operator
+## 2 - Installing Grafana Operator
 
 ![OpenShift Grafana Operator](img/Grafana-Operator.png)
 
-# 3 - Deploy Grafana Loki
+## 3 - Deploy Grafana Loki
 ## For the implementation of Network Observability we will not use the complete Loki stack, a Deployment was created to facilitate the study for the Development environment.
 
 ```bash
 oc apply -k loki/base
 ```
 
-# 4 - Grafana Dashboards
-## Deploy Grafana Dashboards
+## 4 - Grafana Dashboards
+### Deploy Grafana Dashboards
 ```bash
 oc apply -k grafana-operator/overlays/instance/overlay
 ```
 ![Dashboard](img/Dashboard.png)
 
-# 5 - Deploy Network Observability Flow Collector
+## 5 - Deploy Network Observability Flow Collector
 
 ```bash
 oc apply -k netobserv/instance/overlays/default/
@@ -42,7 +42,7 @@ oc apply -k netobserv/instance/overlays/default/
 * Status: the actual status of the Netobserv FlowCollector
 * The FlowCollector resource includes configuration of the Loki client, which is used by the processor (flowlogs-pipeline) to connect and send data to Loki for storage:
 
-# OpenShift Console Plugin
+## OpenShift Console Plugin
 * Overview Metrics - Charts on this page show overall, aggregated metrics on the cluster network:
 ![OpenShift NetWork Traffic](img/Network-Traffic.png)
 
