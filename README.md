@@ -1,7 +1,10 @@
 # OpenShift 4 Network Observability
 
 # How can we analyze our Network Flows in our Kubernetes clusters? How can we enable Network Observability for Kubernetes in a simple, searchable and visual way? How can we leverage cool technologies such as eBPF or IPFIX to enable Network Observability for our K8s Network Traffic?
-
+```bash
+git clone https://github.com/leoevasconcelos/network-observability.git
+```
+## Create new project OpenShift
 ```bash
 oc new-project netobserv
 ```
